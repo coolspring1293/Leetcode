@@ -33,7 +33,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> largestDivisibleSubset(vector<int>& nums) {
-        if(nums.size() == 0) return nums;
+        if(nums.size() == 0) { return nums; }
         sort(nums.begin(), nums.end(), greater<int>());
         size_t len = nums.size(), curMax = 1, k = 0;
         vector<int> par(len), dp(len, 1), result;
@@ -42,7 +42,7 @@ public:
         }
         for(int i = 1; i < len; i ++) {
             for(int j = 0; j < i; j ++) {
-                if(nums[j] % nums[i] != 0) continue;
+                if(nums[j] % nums[i] != 0) { continue; }
                 if(dp[i] < dp[j] + 1) {
                     par[i] = j;
                     dp[i] = dp[j] + 1;
@@ -63,7 +63,15 @@ public:
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    vector<int> v;
+    v.push_back(1);
+    v.push_back(2);
+    v.push_back(4);
+    v.push_back(7);
+    Solution s;
+    vector<int> vv = s.largestDivisibleSubset(v);
+    for (int i = 0; i < vv.size(); ++ i) {
+        cout << vv[i] << "\t";
+    }
     return 0;
 }
