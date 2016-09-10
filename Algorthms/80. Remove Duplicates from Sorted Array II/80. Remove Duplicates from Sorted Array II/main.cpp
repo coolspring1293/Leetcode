@@ -17,7 +17,7 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int cur_count = 1;
+        int cur_count = 0;
         
         vector<int> new_nums;
         if (!nums.empty()) {
@@ -27,17 +27,16 @@ public:
         }
         int tmp = nums[0];
         for (int i = 1; i < nums.size(); ++ i) {
-            //cout << "LOOP:" << i << "\tNUM = " << nums[i] << "\tTMP = " << tmp << "\tCUR_COUNT = " << cur_count << "\n";
-            if (cur_count < 2) {
-                new_nums.push_back(nums[i]);
-            }
-            
+            cout << "LOOP:" << i << "\tNUM = " << nums[i] << "\tTMP = " << tmp << "\tCUR_COUNT = " << cur_count << "\n";
             if(tmp == nums[i]) {
                 cur_count ++;
             } else {
                 cur_count = 0;
             }
             tmp = nums[i];
+            if (cur_count < 2) {
+                new_nums.push_back(nums[i]);
+            }
             
         }
         nums = new_nums;
@@ -46,9 +45,9 @@ public:
 };
 
 
-int main_fuck(int argc, const char * argv[]) {
-    // vector<int> v {1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3 };
-    vector<int> v {1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3 };
+int main(int argc, const char * argv[]) {
+    //vector<int> v {1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3 };
+    vector<int> v {1, 1, 2, 3, 4 };
     Solution s;
     cout << s.removeDuplicates(v) << ": ";
     for (int i = 0; i < v.size(); ++ i) {

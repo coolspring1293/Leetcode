@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAAC7A851D846FEF002E3C4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAC7A841D846FEF002E3C4B /* main.cpp */; };
+		CAAC7A981D8475CD002E3C4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAC7A971D8475CD002E3C4B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CAAC7A7F1D846FEF002E3C4B /* CopyFiles */ = {
+		CAAC7A921D8475CD002E3C4B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CAAC7A811D846FEF002E3C4B /* 80. Remove Duplicates from Sorted Array II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "80. Remove Duplicates from Sorted Array II"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAAC7A841D846FEF002E3C4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CAAC7A941D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "80. Remove Duplicates from Sorted Array II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAC7A971D8475CD002E3C4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CAAC7A7E1D846FEF002E3C4B /* Frameworks */ = {
+		CAAC7A911D8475CD002E3C4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CAAC7A781D846FEF002E3C4B = {
+		CAAC7A8B1D8475CD002E3C4B = {
 			isa = PBXGroup;
 			children = (
-				CAAC7A831D846FEF002E3C4B /* 80. Remove Duplicates from Sorted Array II */,
-				CAAC7A821D846FEF002E3C4B /* Products */,
+				CAAC7A961D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */,
+				CAAC7A951D8475CD002E3C4B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CAAC7A821D846FEF002E3C4B /* Products */ = {
+		CAAC7A951D8475CD002E3C4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAAC7A811D846FEF002E3C4B /* 80. Remove Duplicates from Sorted Array II */,
+				CAAC7A941D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAAC7A831D846FEF002E3C4B /* 80. Remove Duplicates from Sorted Array II */ = {
+		CAAC7A961D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */ = {
 			isa = PBXGroup;
 			children = (
-				CAAC7A841D846FEF002E3C4B /* main.cpp */,
+				CAAC7A971D8475CD002E3C4B /* main.cpp */,
 			);
 			path = "80. Remove Duplicates from Sorted Array II";
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CAAC7A801D846FEF002E3C4B /* 80. Remove Duplicates from Sorted Array II */ = {
+		CAAC7A931D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAAC7A881D846FEF002E3C4B /* Build configuration list for PBXNativeTarget "80. Remove Duplicates from Sorted Array II" */;
+			buildConfigurationList = CAAC7A9B1D8475CD002E3C4B /* Build configuration list for PBXNativeTarget "80. Remove Duplicates from Sorted Array II" */;
 			buildPhases = (
-				CAAC7A7D1D846FEF002E3C4B /* Sources */,
-				CAAC7A7E1D846FEF002E3C4B /* Frameworks */,
-				CAAC7A7F1D846FEF002E3C4B /* CopyFiles */,
+				CAAC7A901D8475CD002E3C4B /* Sources */,
+				CAAC7A911D8475CD002E3C4B /* Frameworks */,
+				CAAC7A921D8475CD002E3C4B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +79,53 @@
 			);
 			name = "80. Remove Duplicates from Sorted Array II";
 			productName = "80. Remove Duplicates from Sorted Array II";
-			productReference = CAAC7A811D846FEF002E3C4B /* 80. Remove Duplicates from Sorted Array II */;
+			productReference = CAAC7A941D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CAAC7A791D846FEF002E3C4B /* Project object */ = {
+		CAAC7A8C1D8475CD002E3C4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = liuw53;
 				TargetAttributes = {
-					CAAC7A801D846FEF002E3C4B = {
+					CAAC7A931D8475CD002E3C4B = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = CAAC7A7C1D846FEF002E3C4B /* Build configuration list for PBXProject "80. Remove Duplicates from Sorted Array II" */;
+			buildConfigurationList = CAAC7A8F1D8475CD002E3C4B /* Build configuration list for PBXProject "80. Remove Duplicates from Sorted Array II" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CAAC7A781D846FEF002E3C4B;
-			productRefGroup = CAAC7A821D846FEF002E3C4B /* Products */;
+			mainGroup = CAAC7A8B1D8475CD002E3C4B;
+			productRefGroup = CAAC7A951D8475CD002E3C4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAAC7A801D846FEF002E3C4B /* 80. Remove Duplicates from Sorted Array II */,
+				CAAC7A931D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CAAC7A7D1D846FEF002E3C4B /* Sources */ = {
+		CAAC7A901D8475CD002E3C4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAC7A851D846FEF002E3C4B /* main.cpp in Sources */,
+				CAAC7A981D8475CD002E3C4B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CAAC7A861D846FEF002E3C4B /* Debug */ = {
+		CAAC7A991D8475CD002E3C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -169,7 +169,7 @@
 			};
 			name = Debug;
 		};
-		CAAC7A871D846FEF002E3C4B /* Release */ = {
+		CAAC7A9A1D8475CD002E3C4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,14 +206,14 @@
 			};
 			name = Release;
 		};
-		CAAC7A891D846FEF002E3C4B /* Debug */ = {
+		CAAC7A9C1D8475CD002E3C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CAAC7A8A1D846FEF002E3C4B /* Release */ = {
+		CAAC7A9D1D8475CD002E3C4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -223,24 +223,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAAC7A7C1D846FEF002E3C4B /* Build configuration list for PBXProject "80. Remove Duplicates from Sorted Array II" */ = {
+		CAAC7A8F1D8475CD002E3C4B /* Build configuration list for PBXProject "80. Remove Duplicates from Sorted Array II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAAC7A861D846FEF002E3C4B /* Debug */,
-				CAAC7A871D846FEF002E3C4B /* Release */,
+				CAAC7A991D8475CD002E3C4B /* Debug */,
+				CAAC7A9A1D8475CD002E3C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAAC7A881D846FEF002E3C4B /* Build configuration list for PBXNativeTarget "80. Remove Duplicates from Sorted Array II" */ = {
+		CAAC7A9B1D8475CD002E3C4B /* Build configuration list for PBXNativeTarget "80. Remove Duplicates from Sorted Array II" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAAC7A891D846FEF002E3C4B /* Debug */,
-				CAAC7A8A1D846FEF002E3C4B /* Release */,
+				CAAC7A9C1D8475CD002E3C4B /* Debug */,
+				CAAC7A9D1D8475CD002E3C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CAAC7A791D846FEF002E3C4B /* Project object */;
+	rootObject = CAAC7A8C1D8475CD002E3C4B /* Project object */;
 }
