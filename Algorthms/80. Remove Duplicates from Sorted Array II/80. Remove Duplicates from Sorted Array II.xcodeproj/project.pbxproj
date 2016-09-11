@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAAC7A981D8475CD002E3C4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAC7A971D8475CD002E3C4B /* main.cpp */; };
+		CAAC7A9F1D85CD78002E3C4B /* Solution.java in Sources */ = {isa = PBXBuildFile; fileRef = CAAC7A9E1D85CD78002E3C4B /* Solution.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		CAAC7A941D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "80. Remove Duplicates from Sorted Array II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAC7A971D8475CD002E3C4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CAAC7A9E1D85CD78002E3C4B /* Solution.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Solution.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		CAAC7A8B1D8475CD002E3C4B = {
 			isa = PBXGroup;
 			children = (
+				CAAC7A9E1D85CD78002E3C4B /* Solution.java */,
 				CAAC7A961D8475CD002E3C4B /* 80. Remove Duplicates from Sorted Array II */,
 				CAAC7A951D8475CD002E3C4B /* Products */,
 			);
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAC7A9F1D85CD78002E3C4B /* Solution.java in Sources */,
 				CAAC7A981D8475CD002E3C4B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
