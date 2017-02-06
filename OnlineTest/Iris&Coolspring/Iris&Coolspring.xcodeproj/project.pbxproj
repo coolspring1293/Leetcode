@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CACDD45B1DE2D90500F9CCC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDD45A1DE2D90500F9CCC6 /* AppDelegate.swift */; };
+		CACDD45D1DE2D90500F9CCC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDD45C1DE2D90500F9CCC6 /* ViewController.swift */; };
+		CACDD45F1DE2D90500F9CCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACDD45E1DE2D90500F9CCC6 /* Assets.xcassets */; };
+		CACDD4621DE2D90500F9CCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACDD4601DE2D90500F9CCC6 /* Main.storyboard */; };
+		CACDD46D1DE2D90500F9CCC6 /* Iris_CoolspringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDD46C1DE2D90500F9CCC6 /* Iris_CoolspringTests.swift */; };
+		CACDD4781DE2D90500F9CCC6 /* Iris_CoolspringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDD4771DE2D90500F9CCC6 /* Iris_CoolspringUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CACDD4691DE2D90500F9CCC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CACDD44F1DE2D90500F9CCC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CACDD4561DE2D90500F9CCC6;
+			remoteInfo = "Iris&Coolspring";
+		};
+		CACDD4741DE2D90500F9CCC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CACDD44F1DE2D90500F9CCC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CACDD4561DE2D90500F9CCC6;
+			remoteInfo = "Iris&Coolspring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CACDD4571DE2D90500F9CCC6 /* Iris&Coolspring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iris&Coolspring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACDD45A1DE2D90500F9CCC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CACDD45C1DE2D90500F9CCC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CACDD45E1DE2D90500F9CCC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CACDD4611DE2D90500F9CCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CACDD4631DE2D90500F9CCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACDD4681DE2D90500F9CCC6 /* Iris&CoolspringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iris&CoolspringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACDD46C1DE2D90500F9CCC6 /* Iris_CoolspringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iris_CoolspringTests.swift; sourceTree = "<group>"; };
+		CACDD46E1DE2D90500F9CCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACDD4731DE2D90500F9CCC6 /* Iris&CoolspringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iris&CoolspringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACDD4771DE2D90500F9CCC6 /* Iris_CoolspringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iris_CoolspringUITests.swift; sourceTree = "<group>"; };
+		CACDD4791DE2D90500F9CCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACDD4541DE2D90500F9CCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDD4651DE2D90500F9CCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDD4701DE2D90500F9CCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CACDD44E1DE2D90500F9CCC6 = {
+			isa = PBXGroup;
+			children = (
+				CACDD4591DE2D90500F9CCC6 /* Iris&Coolspring */,
+				CACDD46B1DE2D90500F9CCC6 /* Iris&CoolspringTests */,
+				CACDD4761DE2D90500F9CCC6 /* Iris&CoolspringUITests */,
+				CACDD4581DE2D90500F9CCC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CACDD4581DE2D90500F9CCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACDD4571DE2D90500F9CCC6 /* Iris&Coolspring.app */,
+				CACDD4681DE2D90500F9CCC6 /* Iris&CoolspringTests.xctest */,
+				CACDD4731DE2D90500F9CCC6 /* Iris&CoolspringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACDD4591DE2D90500F9CCC6 /* Iris&Coolspring */ = {
+			isa = PBXGroup;
+			children = (
+				CACDD45A1DE2D90500F9CCC6 /* AppDelegate.swift */,
+				CACDD45C1DE2D90500F9CCC6 /* ViewController.swift */,
+				CACDD45E1DE2D90500F9CCC6 /* Assets.xcassets */,
+				CACDD4601DE2D90500F9CCC6 /* Main.storyboard */,
+				CACDD4631DE2D90500F9CCC6 /* Info.plist */,
+			);
+			path = "Iris&Coolspring";
+			sourceTree = "<group>";
+		};
+		CACDD46B1DE2D90500F9CCC6 /* Iris&CoolspringTests */ = {
+			isa = PBXGroup;
+			children = (
+				CACDD46C1DE2D90500F9CCC6 /* Iris_CoolspringTests.swift */,
+				CACDD46E1DE2D90500F9CCC6 /* Info.plist */,
+			);
+			path = "Iris&CoolspringTests";
+			sourceTree = "<group>";
+		};
+		CACDD4761DE2D90500F9CCC6 /* Iris&CoolspringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CACDD4771DE2D90500F9CCC6 /* Iris_CoolspringUITests.swift */,
+				CACDD4791DE2D90500F9CCC6 /* Info.plist */,
+			);
+			path = "Iris&CoolspringUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CACDD4561DE2D90500F9CCC6 /* Iris&Coolspring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACDD47C1DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&Coolspring" */;
+			buildPhases = (
+				CACDD4531DE2D90500F9CCC6 /* Sources */,
+				CACDD4541DE2D90500F9CCC6 /* Frameworks */,
+				CACDD4551DE2D90500F9CCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Iris&Coolspring";
+			productName = "Iris&Coolspring";
+			productReference = CACDD4571DE2D90500F9CCC6 /* Iris&Coolspring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CACDD4671DE2D90500F9CCC6 /* Iris&CoolspringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACDD47F1DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&CoolspringTests" */;
+			buildPhases = (
+				CACDD4641DE2D90500F9CCC6 /* Sources */,
+				CACDD4651DE2D90500F9CCC6 /* Frameworks */,
+				CACDD4661DE2D90500F9CCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CACDD46A1DE2D90500F9CCC6 /* PBXTargetDependency */,
+			);
+			name = "Iris&CoolspringTests";
+			productName = "Iris&CoolspringTests";
+			productReference = CACDD4681DE2D90500F9CCC6 /* Iris&CoolspringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CACDD4721DE2D90500F9CCC6 /* Iris&CoolspringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACDD4821DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&CoolspringUITests" */;
+			buildPhases = (
+				CACDD46F1DE2D90500F9CCC6 /* Sources */,
+				CACDD4701DE2D90500F9CCC6 /* Frameworks */,
+				CACDD4711DE2D90500F9CCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CACDD4751DE2D90500F9CCC6 /* PBXTargetDependency */,
+			);
+			name = "Iris&CoolspringUITests";
+			productName = "Iris&CoolspringUITests";
+			productReference = CACDD4731DE2D90500F9CCC6 /* Iris&CoolspringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACDD44F1DE2D90500F9CCC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuw53;
+				TargetAttributes = {
+					CACDD4561DE2D90500F9CCC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CACDD4671DE2D90500F9CCC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CACDD4561DE2D90500F9CCC6;
+					};
+					CACDD4721DE2D90500F9CCC6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CACDD4561DE2D90500F9CCC6;
+					};
+				};
+			};
+			buildConfigurationList = CACDD4521DE2D90500F9CCC6 /* Build configuration list for PBXProject "Iris&Coolspring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CACDD44E1DE2D90500F9CCC6;
+			productRefGroup = CACDD4581DE2D90500F9CCC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACDD4561DE2D90500F9CCC6 /* Iris&Coolspring */,
+				CACDD4671DE2D90500F9CCC6 /* Iris&CoolspringTests */,
+				CACDD4721DE2D90500F9CCC6 /* Iris&CoolspringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CACDD4551DE2D90500F9CCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDD45F1DE2D90500F9CCC6 /* Assets.xcassets in Resources */,
+				CACDD4621DE2D90500F9CCC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDD4661DE2D90500F9CCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDD4711DE2D90500F9CCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CACDD4531DE2D90500F9CCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDD45D1DE2D90500F9CCC6 /* ViewController.swift in Sources */,
+				CACDD45B1DE2D90500F9CCC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDD4641DE2D90500F9CCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDD46D1DE2D90500F9CCC6 /* Iris_CoolspringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACDD46F1DE2D90500F9CCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACDD4781DE2D90500F9CCC6 /* Iris_CoolspringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CACDD46A1DE2D90500F9CCC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CACDD4561DE2D90500F9CCC6 /* Iris&Coolspring */;
+			targetProxy = CACDD4691DE2D90500F9CCC6 /* PBXContainerItemProxy */;
+		};
+		CACDD4751DE2D90500F9CCC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CACDD4561DE2D90500F9CCC6 /* Iris&Coolspring */;
+			targetProxy = CACDD4741DE2D90500F9CCC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CACDD4601DE2D90500F9CCC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACDD4611DE2D90500F9CCC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACDD47A1DE2D90500F9CCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CACDD47B1DE2D90500F9CCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CACDD47D1DE2D90500F9CCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Iris&Coolspring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-Coolspring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CACDD47E1DE2D90500F9CCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Iris&Coolspring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-Coolspring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CACDD4801DE2D90500F9CCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Iris&CoolspringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-CoolspringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iris&Coolspring.app/Contents/MacOS/Iris&Coolspring";
+			};
+			name = Debug;
+		};
+		CACDD4811DE2D90500F9CCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Iris&CoolspringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-CoolspringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iris&Coolspring.app/Contents/MacOS/Iris&Coolspring";
+			};
+			name = Release;
+		};
+		CACDD4831DE2D90500F9CCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Iris&CoolspringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-CoolspringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Iris&Coolspring";
+			};
+			name = Debug;
+		};
+		CACDD4841DE2D90500F9CCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Iris&CoolspringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-CoolspringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Iris&Coolspring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CACDD4521DE2D90500F9CCC6 /* Build configuration list for PBXProject "Iris&Coolspring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACDD47A1DE2D90500F9CCC6 /* Debug */,
+				CACDD47B1DE2D90500F9CCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACDD47C1DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&Coolspring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACDD47D1DE2D90500F9CCC6 /* Debug */,
+				CACDD47E1DE2D90500F9CCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CACDD47F1DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&CoolspringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACDD4801DE2D90500F9CCC6 /* Debug */,
+				CACDD4811DE2D90500F9CCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CACDD4821DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&CoolspringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACDD4831DE2D90500F9CCC6 /* Debug */,
+				CACDD4841DE2D90500F9CCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CACDD44F1DE2D90500F9CCC6 /* Project object */;
+}
