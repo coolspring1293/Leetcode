@@ -15,7 +15,7 @@ def dategenerator(start, end):
         current += timedelta(days=1)
 
 def everyday(date):
-    number = random.randint(1, 2)
+    number = random.randint(1, 3)
     datestr = str(date)
     for num in xrange(1, number):
         f = open("cheat.txt", "w")
