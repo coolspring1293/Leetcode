@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAAE55211EAB62D300F6D41C /* c.c in Sources */ = {isa = PBXBuildFile; fileRef = CAAE551F1EAB62D300F6D41C /* c.c */; };
+		CAAE55241EAB632A00F6D41C /* d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAE55221EAB632A00F6D41C /* d.cpp */; };
 		CACDD45B1DE2D90500F9CCC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDD45A1DE2D90500F9CCC6 /* AppDelegate.swift */; };
 		CACDD45D1DE2D90500F9CCC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACDD45C1DE2D90500F9CCC6 /* ViewController.swift */; };
 		CACDD45F1DE2D90500F9CCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACDD45E1DE2D90500F9CCC6 /* Assets.xcassets */; };
@@ -33,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CAAE551E1EAB62D200F6D41C /* Iris&Coolspring-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Iris&Coolspring-Bridging-Header.h"; sourceTree = "<group>"; };
+		CAAE551F1EAB62D300F6D41C /* c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c.c; sourceTree = "<group>"; };
+		CAAE55201EAB62D300F6D41C /* c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
+		CAAE55221EAB632A00F6D41C /* d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = d.cpp; sourceTree = "<group>"; };
+		CAAE55231EAB632A00F6D41C /* d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = d.hpp; sourceTree = "<group>"; };
 		CACDD4571DE2D90500F9CCC6 /* Iris&Coolspring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iris&Coolspring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACDD45A1DE2D90500F9CCC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CACDD45C1DE2D90500F9CCC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,10 +82,15 @@
 		CACDD44E1DE2D90500F9CCC6 = {
 			isa = PBXGroup;
 			children = (
+				CAAE551F1EAB62D300F6D41C /* c.c */,
+				CAAE55201EAB62D300F6D41C /* c.h */,
+				CAAE55221EAB632A00F6D41C /* d.cpp */,
+				CAAE55231EAB632A00F6D41C /* d.hpp */,
 				CACDD4591DE2D90500F9CCC6 /* Iris&Coolspring */,
 				CACDD46B1DE2D90500F9CCC6 /* Iris&CoolspringTests */,
 				CACDD4761DE2D90500F9CCC6 /* Iris&CoolspringUITests */,
 				CACDD4581DE2D90500F9CCC6 /* Products */,
+				CAAE551E1EAB62D200F6D41C /* Iris&Coolspring-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -252,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAE55211EAB62D300F6D41C /* c.c in Sources */,
 				CACDD45D1DE2D90500F9CCC6 /* ViewController.swift in Sources */,
+				CAAE55241EAB632A00F6D41C /* d.cpp in Sources */,
 				CACDD45B1DE2D90500F9CCC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,11 +400,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Iris&Coolspring/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-Coolspring";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Iris&Coolspring-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -398,11 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Iris&Coolspring/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuw53.Iris-Coolspring";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Iris&Coolspring-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -475,6 +494,7 @@
 				CACDD47E1DE2D90500F9CCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CACDD47F1DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&CoolspringTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +503,7 @@
 				CACDD4811DE2D90500F9CCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CACDD4821DE2D90500F9CCC6 /* Build configuration list for PBXNativeTarget "Iris&CoolspringUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +512,7 @@
 				CACDD4841DE2D90500F9CCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

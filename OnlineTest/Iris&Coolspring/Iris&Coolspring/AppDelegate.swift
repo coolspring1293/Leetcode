@@ -16,6 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var statusMenu: NSMenu!
     @IBOutlet weak var loginOnStartupItem: NSMenuItem!
     var statusItem: NSStatusItem?
+    var hoop = false;
 
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
@@ -41,7 +42,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         let timeFormatter = NSDateFormatter()
         timeFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-        let dateAsString = "2015-09-15 23:00:00"
+        let dateAsString = "2016-09-15 23:00:00"
         let date1 = timeFormatter.dateFromString(dateAsString)!
         
         let timeFormatter2 = NSDateFormatter()
@@ -61,7 +62,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             toDate: date,
             options: NSCalendarOptions.init(rawValue: 0))
         
-        let strNowTime2 = "❤️Love you for \(diffDateComponents.day) d, \(diffDateComponents.hour) h, \(diffDateComponents.minute) min, \(diffDateComponents.second) s";
+        
+        
+        hoop = !hoop;
+        var tmpS = "💗";//💗
+        if (hoop) {
+            tmpS = "💖";
+        }
+        
+        let strNowTime2 = tmpS + "Love you for \(diffDateComponents.day) d, \(diffDateComponents.hour) h, \(diffDateComponents.minute) min, \(diffDateComponents.second) s";
         
         self.statusItem?.title = strNowTime2
     }
