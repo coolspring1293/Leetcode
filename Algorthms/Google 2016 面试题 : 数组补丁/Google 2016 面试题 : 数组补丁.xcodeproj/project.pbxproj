@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAEE66DA1F9B0BCE001EA0EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAEE66D91F9B0BCE001EA0EB /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAEE66D41F9B0BCE001EA0EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAEE66D61F9B0BCE001EA0EB /* Google 2016 面试题 : 数组补丁 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google 2016 面试题 : 数组补丁"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEE66D91F9B0BCE001EA0EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEE66D31F9B0BCE001EA0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEE66CD1F9B0BCE001EA0EB = {
+			isa = PBXGroup;
+			children = (
+				CAEE66D81F9B0BCE001EA0EB /* Google 2016 面试题 : 数组补丁 */,
+				CAEE66D71F9B0BCE001EA0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEE66D71F9B0BCE001EA0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE66D61F9B0BCE001EA0EB /* Google 2016 面试题 : 数组补丁 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEE66D81F9B0BCE001EA0EB /* Google 2016 面试题 : 数组补丁 */ = {
+			isa = PBXGroup;
+			children = (
+				CAEE66D91F9B0BCE001EA0EB /* main.cpp */,
+			);
+			path = "Google 2016 面试题 : 数组补丁";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEE66D51F9B0BCE001EA0EB /* Google 2016 面试题 : 数组补丁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEE66DD1F9B0BCE001EA0EB /* Build configuration list for PBXNativeTarget "Google 2016 面试题 : 数组补丁" */;
+			buildPhases = (
+				CAEE66D21F9B0BCE001EA0EB /* Sources */,
+				CAEE66D31F9B0BCE001EA0EB /* Frameworks */,
+				CAEE66D41F9B0BCE001EA0EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google 2016 面试题 : 数组补丁";
+			productName = "Google 2016 面试题 : 数组补丁";
+			productReference = CAEE66D61F9B0BCE001EA0EB /* Google 2016 面试题 : 数组补丁 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEE66CE1F9B0BCE001EA0EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuw53;
+				TargetAttributes = {
+					CAEE66D51F9B0BCE001EA0EB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CAEE66D11F9B0BCE001EA0EB /* Build configuration list for PBXProject "Google 2016 面试题 : 数组补丁" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAEE66CD1F9B0BCE001EA0EB;
+			productRefGroup = CAEE66D71F9B0BCE001EA0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEE66D51F9B0BCE001EA0EB /* Google 2016 面试题 : 数组补丁 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEE66D21F9B0BCE001EA0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEE66DA1F9B0BCE001EA0EB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAEE66DB1F9B0BCE001EA0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAEE66DC1F9B0BCE001EA0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAEE66DE1F9B0BCE001EA0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAEE66DF1F9B0BCE001EA0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEE66D11F9B0BCE001EA0EB /* Build configuration list for PBXProject "Google 2016 面试题 : 数组补丁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEE66DB1F9B0BCE001EA0EB /* Debug */,
+				CAEE66DC1F9B0BCE001EA0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEE66DD1F9B0BCE001EA0EB /* Build configuration list for PBXNativeTarget "Google 2016 面试题 : 数组补丁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEE66DE1F9B0BCE001EA0EB /* Debug */,
+				CAEE66DF1F9B0BCE001EA0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEE66CE1F9B0BCE001EA0EB /* Project object */;
+}
