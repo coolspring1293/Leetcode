@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAA714DF1F9EE54C006EEAC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAA714DE1F9EE54C006EEAC2 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAA714D91F9EE54C006EEAC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAA714DB1F9EE54C006EEAC2 /* Google 2016 面试题2 : 不构造树的情况下验证先序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Google 2016 面试题2 : 不构造树的情况下验证先序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA714DE1F9EE54C006EEAC2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAA714D81F9EE54C006EEAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAA714D21F9EE54C006EEAC2 = {
+			isa = PBXGroup;
+			children = (
+				CAA714DD1F9EE54C006EEAC2 /* Google 2016 面试题2 : 不构造树的情况下验证先序遍历 */,
+				CAA714DC1F9EE54C006EEAC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA714DC1F9EE54C006EEAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA714DB1F9EE54C006EEAC2 /* Google 2016 面试题2 : 不构造树的情况下验证先序遍历 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAA714DD1F9EE54C006EEAC2 /* Google 2016 面试题2 : 不构造树的情况下验证先序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				CAA714DE1F9EE54C006EEAC2 /* main.cpp */,
+			);
+			path = "Google 2016 面试题2 : 不构造树的情况下验证先序遍历";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAA714DA1F9EE54C006EEAC2 /* Google 2016 面试题2 : 不构造树的情况下验证先序遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA714E21F9EE54C006EEAC2 /* Build configuration list for PBXNativeTarget "Google 2016 面试题2 : 不构造树的情况下验证先序遍历" */;
+			buildPhases = (
+				CAA714D71F9EE54C006EEAC2 /* Sources */,
+				CAA714D81F9EE54C006EEAC2 /* Frameworks */,
+				CAA714D91F9EE54C006EEAC2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google 2016 面试题2 : 不构造树的情况下验证先序遍历";
+			productName = "Google 2016 面试题2 : 不构造树的情况下验证先序遍历";
+			productReference = CAA714DB1F9EE54C006EEAC2 /* Google 2016 面试题2 : 不构造树的情况下验证先序遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA714D31F9EE54C006EEAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuw53;
+				TargetAttributes = {
+					CAA714DA1F9EE54C006EEAC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CAA714D61F9EE54C006EEAC2 /* Build configuration list for PBXProject "Google 2016 面试题2 : 不构造树的情况下验证先序遍历" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAA714D21F9EE54C006EEAC2;
+			productRefGroup = CAA714DC1F9EE54C006EEAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAA714DA1F9EE54C006EEAC2 /* Google 2016 面试题2 : 不构造树的情况下验证先序遍历 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAA714D71F9EE54C006EEAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA714DF1F9EE54C006EEAC2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAA714E01F9EE54C006EEAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CAA714E11F9EE54C006EEAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CAA714E31F9EE54C006EEAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAA714E41F9EE54C006EEAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAA714D61F9EE54C006EEAC2 /* Build configuration list for PBXProject "Google 2016 面试题2 : 不构造树的情况下验证先序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA714E01F9EE54C006EEAC2 /* Debug */,
+				CAA714E11F9EE54C006EEAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA714E21F9EE54C006EEAC2 /* Build configuration list for PBXNativeTarget "Google 2016 面试题2 : 不构造树的情况下验证先序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA714E31F9EE54C006EEAC2 /* Debug */,
+				CAA714E41F9EE54C006EEAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA714D31F9EE54C006EEAC2 /* Project object */;
+}
